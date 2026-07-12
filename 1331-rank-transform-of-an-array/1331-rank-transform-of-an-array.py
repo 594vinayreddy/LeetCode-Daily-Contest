@@ -4,14 +4,5 @@ class Solution(object):
         :type arr: List[int]
         :rtype: List[int]
         """
-        sorted_arr=sorted(set(arr))
-
-        rank = {}
-
-        for i in range(len(sorted_arr)):
-            rank[sorted_arr[i]] = i + 1
-
-        for i in range(len(arr)):
-            arr[i] = rank[arr[i]]
-        
-        return arr
+        rank = {v : i for i,v in enumerate(sorted(set(arr)),1)}
+        return [rank[v] for v in arr]
