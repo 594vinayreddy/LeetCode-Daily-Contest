@@ -10,21 +10,25 @@ class Solution(object):
             return a
 
         MOD = 10**9 + 7
-        M = 201
-        dp= [[0] * M for _ in range(M)]
-        dp[0][0] = 1
+        n = len(nums)
+        V = max(nums)
 
-        for x in nums:
-            new_dp = [row[:] for row in dp]
-            for g1 in range(M):
-                row = dp[g1]
-                for g2 in range(M):
-                    c = row[g2]
-                    if c == 0:
-                        continue
-                    ng1 = gcd(g1, x)
-                    new_dp[ng1][g2] = (new_dp[ng1][g2] + c) % MOD
-                    ng2 = gcd(g2, x)
-                    new_dp[g1][ng2] = (new_dp[g1][ng2] + c) % MOD
-            dp = new_dp
-        return sum(dp[g][g] for g in range(1, M)) % MOD
+        memo = [[[-1] * (V + 1) for _ in range(V + 1)] for _ in range(n + 1)]
+        def solve(i, g1, g2):
+            if i == n:
+                return 1 if (g1 == g2 and g1 != 0) else 0
+
+            if memo[i][g1][g2] != -1:
+                return memo[i][g1][g2]
+            
+            x = nums[i]
+
+            total = solve(i + 1, g1, g2)
+            total += solve(i + 1, gcd(g1, x), g2)
+            total += solve(i + 1, g1, gcd(g2, x))
+            total  %= MOD
+
+            memo[i][g1][g2] = total
+            return total
+
+        return solve(0,0,0)
