@@ -4,16 +4,16 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        xor_all = 0
-        has_non_zero = False
+        x = 0
 
-        for num in nums:
-            xor_all ^= num
-            if num != 0:
-                has_non_zero = True
+        for i in nums:
+            x ^= i
 
-        if not has_non_zero:
-            return 0
-        if xor_all != 0:
+        if x != 0:
             return len(nums)
-        return len(nums) - 1
+
+        for i in nums:
+            if i != 0:
+                return len(nums) - 1
+
+        return 0
