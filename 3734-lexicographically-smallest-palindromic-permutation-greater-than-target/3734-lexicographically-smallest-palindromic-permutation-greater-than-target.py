@@ -34,9 +34,7 @@ class Solution(object):
             if candidate > target:
                 return candidate
         
-        remaining = dict(avail)
-        for i in range(p_max):
-            remaining[target[i]] -= 1
+      
 
         p = p_max
         while p >= 0:
