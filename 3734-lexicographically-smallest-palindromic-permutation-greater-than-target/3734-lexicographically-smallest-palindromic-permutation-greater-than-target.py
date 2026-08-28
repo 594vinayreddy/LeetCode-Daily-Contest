@@ -18,7 +18,7 @@ class Solution(object):
 
         remaining = dict(avail)
         p_max = 0
-        for i in range(min(n, doubled_len)):
+        for i in range(doubled_len):
             c = target[i]
             if remaining.get(c, 0) > 0:
                 remaining[c] -= 1
