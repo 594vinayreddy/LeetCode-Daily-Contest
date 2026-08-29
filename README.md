@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1331-rank-transform-of-an-array](https://github.com/594vinayreddy/LeetCode-Daily-Contest/tree/master/1331-rank-transform-of-an-array) |
 | [1406-stone-game-iii](https://github.com/594vinayreddy/LeetCode-Daily-Contest/tree/master/1406-stone-game-iii) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/594vinayreddy/LeetCode-Daily-Contest/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
+| [1547-minimum-cost-to-cut-a-stick](https://github.com/594vinayreddy/LeetCode-Daily-Contest/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [1563-stone-game-v](https://github.com/594vinayreddy/LeetCode-Daily-Contest/tree/master/1563-stone-game-v) |
 | [1872-stone-game-viii](https://github.com/594vinayreddy/LeetCode-Daily-Contest/tree/master/1872-stone-game-viii) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/594vinayreddy/LeetCode-Daily-Contest/tree/master/1979-find-greatest-common-divisor-of-array) |
@@ -54,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0628-maximum-product-of-three-numbers](https://github.com/594vinayreddy/LeetCode-Daily-Contest/tree/master/0628-maximum-product-of-three-numbers) |
 | [1331-rank-transform-of-an-array](https://github.com/594vinayreddy/LeetCode-Daily-Contest/tree/master/1331-rank-transform-of-an-array) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/594vinayreddy/LeetCode-Daily-Contest/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
+| [1547-minimum-cost-to-cut-a-stick](https://github.com/594vinayreddy/LeetCode-Daily-Contest/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/594vinayreddy/LeetCode-Daily-Contest/tree/master/2948-make-lexicographically-smallest-array-by-swapping-elements) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/594vinayreddy/LeetCode-Daily-Contest/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/594vinayreddy/LeetCode-Daily-Contest/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
@@ -103,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0486-predict-the-winner](https://github.com/594vinayreddy/LeetCode-Daily-Contest/tree/master/0486-predict-the-winner) |
 | [0877-stone-game](https://github.com/594vinayreddy/LeetCode-Daily-Contest/tree/master/0877-stone-game) |
 | [1406-stone-game-iii](https://github.com/594vinayreddy/LeetCode-Daily-Contest/tree/master/1406-stone-game-iii) |
+| [1547-minimum-cost-to-cut-a-stick](https://github.com/594vinayreddy/LeetCode-Daily-Contest/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [1563-stone-game-v](https://github.com/594vinayreddy/LeetCode-Daily-Contest/tree/master/1563-stone-game-v) |
 | [1872-stone-game-viii](https://github.com/594vinayreddy/LeetCode-Daily-Contest/tree/master/1872-stone-game-viii) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/594vinayreddy/LeetCode-Daily-Contest/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
