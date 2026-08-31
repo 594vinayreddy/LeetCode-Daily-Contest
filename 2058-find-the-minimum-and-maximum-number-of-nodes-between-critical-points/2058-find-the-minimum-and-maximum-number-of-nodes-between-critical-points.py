@@ -9,29 +9,34 @@ class Solution(object):
         :type head: Optional[ListNode]
         :rtype: List[int]
         """
-        curr = head
-        nodes = []
-        critical_points = []
+        prev = head
+        curr = head.next
 
-        while curr:
-            nodes.append(curr.val)
-            curr = curr.next
-        
-        for i in range(2, len(nodes)):
-            if nodes[i - 2] > nodes[i - 1] < nodes[i] or nodes[i - 2] < nodes[i - 1] > nodes[i]:
-                critical_points.append(i - 1)
-
-        m = len(critical_points)
-
-        if m < 2:
-            return [-1, -1]
-
-        max_dist = critical_points[-1] - critical_points[0]
-
+        index = 1
+        first = -1
+        last = -1
         min_dist = float("inf")
 
-        for i in range(1, m):
-            min_dist = min(min_dist, critical_points[i] - critical_points[i - 1])
+        while curr and curr.next:
+            next_node = curr.next
+
+            if ((curr.val > prev.val and curr.val > next_node.val) or
+                (curr.val < prev.val and curr.val < next_node.val)):
+
+                if first == -1:
+                    first = index
+                else:
+                    min_dist = min(min_dist, index - last)
+
+                last = index
+
+            prev = curr
+            curr = curr.next
+            index += 1
+
+        if min_dist == float("inf"):
+            return [-1, -1]
+
+        max_dist = last - first
 
         return [min_dist, max_dist]
-
