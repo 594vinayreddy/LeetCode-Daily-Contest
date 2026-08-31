@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/594vinayreddy/LeetCode-Daily-Contest/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/594vinayreddy/LeetCode-Daily-Contest/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/594vinayreddy/LeetCode-Daily-Contest/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
+| [0312-burst-balloons](https://github.com/594vinayreddy/LeetCode-Daily-Contest/tree/master/0312-burst-balloons) |
 | [0486-predict-the-winner](https://github.com/594vinayreddy/LeetCode-Daily-Contest/tree/master/0486-predict-the-winner) |
 | [0628-maximum-product-of-three-numbers](https://github.com/594vinayreddy/LeetCode-Daily-Contest/tree/master/0628-maximum-product-of-three-numbers) |
 | [0877-stone-game](https://github.com/594vinayreddy/LeetCode-Daily-Contest/tree/master/0877-stone-game) |
@@ -103,6 +104,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/594vinayreddy/LeetCode-Daily-Contest/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/594vinayreddy/LeetCode-Daily-Contest/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/594vinayreddy/LeetCode-Daily-Contest/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
+| [0312-burst-balloons](https://github.com/594vinayreddy/LeetCode-Daily-Contest/tree/master/0312-burst-balloons) |
 | [0486-predict-the-winner](https://github.com/594vinayreddy/LeetCode-Daily-Contest/tree/master/0486-predict-the-winner) |
 | [0877-stone-game](https://github.com/594vinayreddy/LeetCode-Daily-Contest/tree/master/0877-stone-game) |
 | [1406-stone-game-iii](https://github.com/594vinayreddy/LeetCode-Daily-Contest/tree/master/1406-stone-game-iii) |
