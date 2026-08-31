@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0486-predict-the-winner](https://github.com/594vinayreddy/LeetCode-Daily-Contest/tree/master/0486-predict-the-winner) |
 | [0628-maximum-product-of-three-numbers](https://github.com/594vinayreddy/LeetCode-Daily-Contest/tree/master/0628-maximum-product-of-three-numbers) |
 | [0877-stone-game](https://github.com/594vinayreddy/LeetCode-Daily-Contest/tree/master/0877-stone-game) |
+| [1043-partition-array-for-maximum-sum](https://github.com/594vinayreddy/LeetCode-Daily-Contest/tree/master/1043-partition-array-for-maximum-sum) |
 | [1260-shift-2d-grid](https://github.com/594vinayreddy/LeetCode-Daily-Contest/tree/master/1260-shift-2d-grid) |
 | [1331-rank-transform-of-an-array](https://github.com/594vinayreddy/LeetCode-Daily-Contest/tree/master/1331-rank-transform-of-an-array) |
 | [1406-stone-game-iii](https://github.com/594vinayreddy/LeetCode-Daily-Contest/tree/master/1406-stone-game-iii) |
@@ -107,6 +108,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0312-burst-balloons](https://github.com/594vinayreddy/LeetCode-Daily-Contest/tree/master/0312-burst-balloons) |
 | [0486-predict-the-winner](https://github.com/594vinayreddy/LeetCode-Daily-Contest/tree/master/0486-predict-the-winner) |
 | [0877-stone-game](https://github.com/594vinayreddy/LeetCode-Daily-Contest/tree/master/0877-stone-game) |
+| [1043-partition-array-for-maximum-sum](https://github.com/594vinayreddy/LeetCode-Daily-Contest/tree/master/1043-partition-array-for-maximum-sum) |
 | [1406-stone-game-iii](https://github.com/594vinayreddy/LeetCode-Daily-Contest/tree/master/1406-stone-game-iii) |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/594vinayreddy/LeetCode-Daily-Contest/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [1563-stone-game-v](https://github.com/594vinayreddy/LeetCode-Daily-Contest/tree/master/1563-stone-game-v) |
