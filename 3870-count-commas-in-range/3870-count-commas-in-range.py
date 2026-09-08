@@ -4,9 +4,7 @@ class Solution(object):
         :type n: int
         :rtype: int
         """
-        m = len(str(n))
-
-        if m <= 3:
+        if n < 1000:
             return 0
 
         else:
