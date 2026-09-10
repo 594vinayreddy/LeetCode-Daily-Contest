@@ -10,34 +10,23 @@ class Solution(object):
         :type root: TreeNode
         :rtype: int
         """
-        nodes = []
+        self.ans = 0
 
-        def postorder(node):
+        def dfs(node):
             if not node:
-                return 
+                return 0, 0
 
-            postorder(node.left)
-            postorder(node.right)
-            nodes.append(node)
-        
-        postorder(root)
+            left_sum, left_count = dfs(node.left)
+            right_sum, right_count = dfs(node.right)
 
-        info = {}
+            total_sum = left_sum + right_sum + node.val
+            total_count = left_count + right_count + 1
 
-        ans = 0
+            if total_sum // total_count == node.val:
+                self.ans += 1
 
-        for node in nodes:
-            left_sum, left_count = info.get(node.left, (0, 0))
-            right_sum, right_count = info.get(node.right, (0, 0))
+            return total_sum, total_count
 
-            subtree_sum = left_sum + right_sum + node.val
-            subtree_count = left_count + right_count + 1
-
-            average = subtree_sum // subtree_count
-
-            if average == node.val:
-                ans += 1
-
-            info[node] = (subtree_sum, subtree_count)
-        
-        return ans
+        dfs(root)
+        return self.ans
+            
